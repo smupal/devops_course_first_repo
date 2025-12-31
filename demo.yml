@@ -1,6 +1,7 @@
 ---# demo
 - name: Demo Playbook
-  hosts: all
+  hosts: localhost
+  gather_facts: no
   tasks:
     - name: Print Hello World
       debug:
