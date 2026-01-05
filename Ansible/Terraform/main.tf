@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket=abc3376"
+  bucket = "my-tf-test-bucket=ajindina"
 
   tags = {
     Name        = "My bucket terraform"
